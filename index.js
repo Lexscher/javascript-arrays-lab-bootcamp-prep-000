@@ -22,3 +22,9 @@ function appendKitten(name) {
   let newKittens = [...kittens, name];
   return newKittens;
 }
+
+function prependKitten(name) {
+  let newKittens = [name, ...kittens];
+  return newKittens;
+}
+
